@@ -1,0 +1,4 @@
+/* A body tag selector that adds the background image to each page */
+body {
+    background-image: url(./images/green.jpg);
+  }

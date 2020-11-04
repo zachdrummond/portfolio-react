@@ -1,0 +1,17 @@
+/* An id that allows the text to wrap around the image on the About Me Page */
+#aboutMeImg {
+  float: left !important;
+  margin-right: 20px !important;
+  margin-bottom: 5px !important;
+  max-width: 50% !important;
+}
+
+/* A tag selector that adds space between the main element and the footer */
+main {
+  margin-bottom: 100px !important;
+}
+
+/* An id selector that changes the color of the header in the card */
+#Header {
+  color: #3c6e4b !important;
+}

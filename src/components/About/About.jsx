@@ -1,4 +1,5 @@
-import headShot from "../images/HeadShot.jpg";
+import headShot from "../../images/HeadShot.jpg";
+import "./About.css"
 
 const About = () => {
   return (
