@@ -1,3 +1,5 @@
+import headShot from "../images/HeadShot.jpg";
+
 const About = () => {
   return (
     <main>
@@ -19,7 +21,7 @@ const About = () => {
               <div class="col-sm-12" id="Picture">
                 <img
                   class="img img-thumbnail"
-                  src="../images/Headshot.JPG"
+                  src={headShot}
                   alt="Head Shot of Zach Drummond"
                   id="aboutMeImg"
                 />
