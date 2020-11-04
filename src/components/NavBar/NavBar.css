@@ -1,0 +1,12 @@
+nav {
+  opacity: 85%;
+}
+
+#name {
+  font-size: 25px;
+}
+
+/* A class selector that changes the font to serif */
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  }

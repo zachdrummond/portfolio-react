@@ -1,6 +1,4 @@
-import React from "react";
-
-const Name = () => {
+const Name = () => { 
   return (
     <>
       {/* < Arrow */}
