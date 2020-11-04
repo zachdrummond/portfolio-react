@@ -1,6 +1,6 @@
 /* A body tag selector that adds the background image to each page */
 body {
-  background-image: url(./images/green.jpg);
+  background-image: url(./images/Background.jpg);
 }
 
 /* A tag selector that adds space between the main element and the footer */
