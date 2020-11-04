@@ -1,29 +1,31 @@
+import { Link } from "react-router-dom";
+
 const Links = () => {
   return (
-    <div class="collapse navbar-collapse text-right" id="navbarMenu">
-      <div class="navbar-nav ml-auto">
-        {/* Link to About */}
-        <a class="navbar-brand" href="/about">
+    <div className="collapse navbar-collapse text-right" id="navbarMenu">
+      <div className="navbar-nav ml-auto">
+        {/* About */}
+        <Link className="navbar-brand" to="/about">
           About
-        </a>
-        {/* Link to Portfolio */}
-        <a class="navbar-brand" href="/portfolio">
+        </Link>
+        {/* Portfolio */}
+        <Link className="navbar-brand" to="/portfolio">
           Portfolio
-        </a>
-        {/* Link to Resume */}
+        </Link>
+        {/* Resume */}
         <a
-          class="navbar-brand"
+          className="navbar-brand"
           href="https://docs.google.com/document/d/1Lg_N5xJ_PITKCcIUaj6RQqQ6mVqgH2fbwWRqjNZHfrM/edit?usp=sharing"
         >
           Resume
         </a>
-        {/* Link to Contact */}
-        <a class="navbar-brand" href="/contact">
+        {/* Contact */}
+        <Link className="navbar-brand" to="/contact">
           Contact
-        </a>
+        </Link>
         {/* LinkedIn Icon */}
         <a
-          class="navbar-brand"
+          className="navbar-brand"
           href="https://www.linkedin.com/in/zachdrummond/"
         >
           <svg
@@ -59,7 +61,7 @@ const Links = () => {
           </svg>
         </a>
         {/* GitHub Icon */}
-        <a class="navbar-brand" href="https://github.com/zachdrummond">
+        <a className="navbar-brand" href="https://github.com/zachdrummond">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="27"
