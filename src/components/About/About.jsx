@@ -5,23 +5,23 @@ const About = () => {
   return (
     <main>
       {/* Contact Card */}
-      <div class="container">
-        <div class="card col-md-8 mt-5 bg-light">
-          <div class="card-body">
+      <div className="container">
+        <div className="card col-md-8 mt-5 bg-light">
+          <div className="card-body">
               
             {/* Header - About Me */}
-            <div class="row" id="row1">
-              <div class="col-sm-12" id="Header">
-                <h2 class="card-title font-weight-bold font">About Me</h2>
+            <div className="row" id="row1">
+              <div className="col-sm-12" id="Header">
+                <h2 className="card-title font-weight-bold font">About Me</h2>
                 <hr />
               </div>
             </div>
 
             {/* Picture and Paragraph */}
-            <div class="row" id="row2">
-              <div class="col-sm-12" id="Picture">
+            <div className="row" id="row2">
+              <div className="col-sm-12" id="Picture">
                 <img
-                  class="img img-thumbnail"
+                  className="img img-thumbnail"
                   src={headShot}
                   alt="Head Shot of Zach Drummond"
                   id="aboutMeImg"
