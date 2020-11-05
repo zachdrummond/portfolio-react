@@ -11,10 +11,10 @@ function App() {
       <>
         <NavBar />
         <Switch>
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio-react" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolio-react/" component={About} />
+          <Route exact path="/portfolio-react/about" component={About} />
+          <Route exact path="/portfolio-react/portfolio" component={Portfolio} />
+          <Route exact path="/portfolio-react/contact" component={Contact} />
           <Route path="/" component={About} />
         </Switch>
         <Footer />
