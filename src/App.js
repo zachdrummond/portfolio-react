@@ -7,18 +7,19 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
-        <NavBar/>
+        <NavBar />
         <Switch>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/contact" component={Contact}/>
-          <Route path="/" component={About}/>
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio-react" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          <Route path="/" component={About} />
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
-    </div>
+    </>
   );
 }
 
