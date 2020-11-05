@@ -1,3 +1,4 @@
 footer {
   opacity: 85%;
+  z-index: -1!important;
 }

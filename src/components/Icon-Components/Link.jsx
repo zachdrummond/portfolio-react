@@ -2,7 +2,7 @@ import React from "react";
 
 const Link = (props) => {
   return (
-    <a href={props.href}>
+    <a href={props.href} className="mr-1">
       <svg
         width="2em"
         height="2em"
