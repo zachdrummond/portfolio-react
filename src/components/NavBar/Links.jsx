@@ -7,11 +7,11 @@ const Links = () => {
     <div className="collapse navbar-collapse text-right" id="navbarMenu">
       <div className="navbar-nav ml-auto">
         {/* About */}
-        <Link className="navbar-brand" to="/portfolio-react/about">
+        <Link className="navbar-brand" to="/about">
           About
         </Link>
         {/* Portfolio */}
-        <Link className="navbar-brand" to="/portfolio-react/portfolio">
+        <Link className="navbar-brand" to="/portfolio">
           Portfolio
         </Link>
         {/* Resume */}
@@ -22,7 +22,7 @@ const Links = () => {
           Resume
         </a>
         {/* Contact */}
-        <Link className="navbar-brand" to="/portfolio-react/contact">
+        <Link className="navbar-brand" to="/contact">
           Contact
         </Link>
         {/* LinkedIn Icon */}
