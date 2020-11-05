@@ -37,4 +37,4 @@ This is my responsive portfolio that includes all of my best applications, a per
 ## Credits
 * https://reactjs.org/
 * https://reactrouter.com/web/guides/quick-start
-* Bootstrap: https://getbootstrap.com/
+* https://getbootstrap.com/
