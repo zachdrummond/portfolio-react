@@ -33,7 +33,7 @@ const Name = () => {
         </svg>
       </p>
       {/* Navbar Collapsible Button */}
-      {/* <button
+      <button
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -43,7 +43,7 @@ const Name = () => {
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
-      </button> */}
+      </button>
     </>
   );
 };
