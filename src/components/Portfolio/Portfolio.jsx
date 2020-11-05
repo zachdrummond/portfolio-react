@@ -1,6 +1,8 @@
-import "./Portfolio.css"
+import "./Portfolio.css";
 import Gifted from "../../images/Gifted.png";
 import FindYourAdventure from "../../images/FindYourAdventure.png";
+import EmployeeDirectory from "../../images/EmployeeDirectory.png";
+import BudgetTracker from "../../images/BudgetTracker.png";
 import EatDaBurger from "../../images/Eat-da-Burger.png";
 import WeatherDashboard from "../../images/WeatherDashboard.png";
 import Card from "./Card";
@@ -52,6 +54,35 @@ const Portfolio = () => {
 
           {/* Card 3 */}
           <Card
+            title="Employee Directory"
+            text="This is an app that displays a directory of employees' basic information. 
+            Users can sort the table by name or date of birth and search the table by name."
+            image={EmployeeDirectory}
+            alt="Employee Directory Project"
+          >
+            {/* Link to Website */}
+            <Link href="http://zachdrummond.github.io/employee-directory" />
+            {/* Link to Website on GitHub */}
+            <GitHub href="https://github.com/zachdrummond/employee-directory" />
+          </Card>
+
+          {/* Card 4 */}
+          <Card
+            title="Budget Tracker"
+            text="This progressive web app tracks all of your financial needs in 
+            one simple place and allows you to access everything, even if you are offline. 
+            You can even download this app on your mobile device."
+            image={BudgetTracker}
+            alt="Budget Tracker Project"
+          >
+            {/* Link to Website */}
+            <Link href="https://pwa-budget-tracker-zd.herokuapp.com/" />
+            {/* Link to Website on GitHub */}
+            <GitHub href="https://github.com/zachdrummond/pwa-budget-tracker" />
+          </Card>
+
+          {/* Card 5 */}
+          <Card
             title="Eat-da-Burger"
             text="This is a simple restaurant app that enables users to
             create fictional burgers and eat them too! Do you dream
@@ -66,7 +97,7 @@ const Portfolio = () => {
             <GitHub href="https://github.com/zachdrummond/eat-da-burger" />
           </Card>
 
-          {/* Card 4 */}
+          {/* Card 6 */}
           <Card
             title="Weather Dashboard"
             text="The weather dashboard displays data from the OpenWeather
