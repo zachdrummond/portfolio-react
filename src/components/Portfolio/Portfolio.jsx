@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 import Gifted from "../../images/Gifted.png";
 import FindYourAdventure from "../../images/FindYourAdventure.png";
-import EmployeeDirectory from "../../images/EmployeeDirectory.png";
+import GoogleBooksSearch from "../../images/GoogleBooksSearch.png";
 import BudgetTracker from "../../images/BudgetTracker.png";
 import EatDaBurger from "../../images/Eat-da-Burger.png";
 import WeatherDashboard from "../../images/WeatherDashboard.png";
@@ -54,16 +54,15 @@ const Portfolio = () => {
 
           {/* Card 3 */}
           <Card
-            title="Employee Directory"
-            text="This is an app that displays a directory of employees' basic information. 
-            Users can sort the table by name or date of birth and search the table by name."
-            image={EmployeeDirectory}
-            alt="Employee Directory Project"
+            title="Google Books Search"
+            text="This is an app that can find and save any book's basic information via Google Books API."
+            image={GoogleBooksSearch}
+            alt="Google Books Search Project"
           >
             {/* Link to Website */}
-            <Link href="http://zachdrummond.github.io/employee-directory" />
+            <Link href="https://google-books-search-zd.herokuapp.com/search" />
             {/* Link to Website on GitHub */}
-            <GitHub href="https://github.com/zachdrummond/employee-directory" />
+            <GitHub href="https://github.com/zachdrummond/google-books-search" />
           </Card>
 
           {/* Card 4 */}

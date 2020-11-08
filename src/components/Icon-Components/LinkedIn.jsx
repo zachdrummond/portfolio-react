@@ -5,6 +5,7 @@ const LinkedIn = () => {
     <a
       className="navbar-brand"
       href="https://www.linkedin.com/in/zachdrummond/"
+      target="_blank" rel="noreferrer"
     >
       <svg
         id="Group_1282"

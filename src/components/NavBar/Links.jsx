@@ -18,6 +18,7 @@ const Links = () => {
         <a
           className="navbar-brand"
           href="https://docs.google.com/document/d/1Lg_N5xJ_PITKCcIUaj6RQqQ6mVqgH2fbwWRqjNZHfrM/edit?usp=sharing"
+          target="_blank" rel="noreferrer"
         >
           Resume
         </a>
