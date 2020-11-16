@@ -4,7 +4,7 @@ import FindYourAdventure from "../../images/FindYourAdventure.png";
 import GoogleBooksSearch from "../../images/GoogleBooksSearch.png";
 import BudgetTracker from "../../images/BudgetTracker.png";
 import EatDaBurger from "../../images/Eat-da-Burger.png";
-import WeatherDashboard from "../../images/WeatherDashboard.png";
+import Ciphr from "../../images/Ciphr.png";
 import Card from "./Card";
 import GitHub from "../Icon-Components/GitHub";
 import Link from "../Icon-Components/Link";
@@ -22,6 +22,20 @@ const Portfolio = () => {
 
           {/* Card 1 */}
           <Card
+            title="Ciphr"
+            text="This is an app that serves as a platform to share and solve coding algorithms. 
+            It enables developers to connect with each other in order to strengthen 
+            their critical thinking abilities and problem solving skills."
+            image={Ciphr}
+            alt="Ciphr Project"
+          >
+            {/* Link to Website */}
+            <Link href="http://gifted-project2.herokuapp.com/" />
+            {/* Link to Website on GitHub */}
+            <GitHub href="https://github.com/zachdrummond/gifted" />
+          </Card>
+          {/* Card 2 */}
+          <Card
             title="Gifted"
             text="This is an app that tracks all of your gifts in one
                       organized place. There is a table that organizes all of
@@ -37,7 +51,7 @@ const Portfolio = () => {
             <GitHub href="https://github.com/zachdrummond/gifted" />
           </Card>
 
-          {/* Card 2 */}
+          {/* Card 3 */}
           <Card
             title="Find Your Adventure"
             text="Find your Adventure is a one stop shop website that gives
@@ -52,7 +66,7 @@ const Portfolio = () => {
             <GitHub href="https://github.com/zachdrummond/Find-Your-Adventure" />
           </Card>
 
-          {/* Card 3 */}
+          {/* Card 4 */}
           <Card
             title="Google Books Search"
             text="This is an app that can find and save any book's basic information via Google Books API."
@@ -65,7 +79,7 @@ const Portfolio = () => {
             <GitHub href="https://github.com/zachdrummond/google-books-search" />
           </Card>
 
-          {/* Card 4 */}
+          {/* Card 5 */}
           <Card
             title="Budget Tracker"
             text="This progressive web app tracks all of your financial needs in 
@@ -80,7 +94,7 @@ const Portfolio = () => {
             <GitHub href="https://github.com/zachdrummond/pwa-budget-tracker" />
           </Card>
 
-          {/* Card 5 */}
+          {/* Card 6 */}
           <Card
             title="Eat-da-Burger"
             text="This is a simple restaurant app that enables users to
@@ -94,21 +108,6 @@ const Portfolio = () => {
             <Link href="https://eat-da-burger-zachdrummond.herokuapp.com/" />
             {/* Link to Website on GitHub */}
             <GitHub href="https://github.com/zachdrummond/eat-da-burger" />
-          </Card>
-
-          {/* Card 6 */}
-          <Card
-            title="Weather Dashboard"
-            text="The weather dashboard displays data from the OpenWeather
-            API. The user can retrieve the current weather information
-            for any city in the world, including a 5 day forecast."
-            image={WeatherDashboard}
-            alt="Weather Dashboard Project"
-          >
-            {/* Link to Website */}
-            <Link href="https://zachdrummond.github.io/weather-dashboard/" />
-            {/* Link to Website on GitHub */}
-            <GitHub href="https://github.com/zachdrummond/weather-dashboard" />
           </Card>
         </div>
       </div>
