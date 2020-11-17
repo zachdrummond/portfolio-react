@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.12e2030a.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.fd0f57c1.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.fd0f57c1.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.3cc4f597.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.3cc4f597.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.9e14be9f.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.9e14be9f.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/portfolio-react/static/css/2.20aa2d7b.chunk.css",
@@ -16,18 +16,18 @@
     "static/js/2.b5e6aed1.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.b5e6aed1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-react/static/media/Background.d589781b.jpg",
     "static/media/BudgetTracker.ca7fc14e.png": "/portfolio-react/static/media/BudgetTracker.ca7fc14e.png",
+    "static/media/Ciphr.8ca26dc8.png": "/portfolio-react/static/media/Ciphr.8ca26dc8.png",
     "static/media/Eat-da-Burger.3c623e91.png": "/portfolio-react/static/media/Eat-da-Burger.3c623e91.png",
     "static/media/FindYourAdventure.ae5a63cb.png": "/portfolio-react/static/media/FindYourAdventure.ae5a63cb.png",
     "static/media/Gifted.49691ce4.png": "/portfolio-react/static/media/Gifted.49691ce4.png",
     "static/media/GoogleBooksSearch.43aa4c28.png": "/portfolio-react/static/media/GoogleBooksSearch.43aa4c28.png",
-    "static/media/HeadShot.7a7691ce.jpg": "/portfolio-react/static/media/HeadShot.7a7691ce.jpg",
-    "static/media/WeatherDashboard.0052ac58.png": "/portfolio-react/static/media/WeatherDashboard.0052ac58.png"
+    "static/media/HeadShot.7a7691ce.jpg": "/portfolio-react/static/media/HeadShot.7a7691ce.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9e14be9f.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.b5e6aed1.chunk.js",
     "static/css/main.12e2030a.chunk.css",
-    "static/js/main.fd0f57c1.chunk.js"
+    "static/js/main.3cc4f597.chunk.js"
   ]
 }
