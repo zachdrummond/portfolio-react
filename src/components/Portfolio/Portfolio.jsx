@@ -30,9 +30,9 @@ const Portfolio = () => {
             alt="Ciphr Project"
           >
             {/* Link to Website */}
-            <Link href="http://gifted-project2.herokuapp.com/" />
+            <Link href="https://ciphr.herokuapp.com/" />
             {/* Link to Website on GitHub */}
-            <GitHub href="https://github.com/zachdrummond/gifted" />
+            <GitHub href="https://github.com/zachdrummond/ciphr" />
           </Card>
           {/* Card 2 */}
           <Card
