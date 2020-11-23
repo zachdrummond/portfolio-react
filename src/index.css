@@ -13,6 +13,10 @@ main {
   color: #3c6e4b !important;
 }
 
+#brand {
+  color: gray;
+  font-size: 12px;
+}
 /* A class selector that changes the font to serif */
 .font {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;

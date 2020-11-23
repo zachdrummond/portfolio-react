@@ -13,6 +13,8 @@ const About = () => {
             <div className="row" id="row1">
               <div className="col-sm-12" id="Header">
                 <h2 className="card-title font-weight-bold font">About Me</h2>
+                <p id="brand">I am a full stack web developer with a passion for developing 
+                  mobile-first, user-friendly apps that solve real world needs.</p>
                 <hr />
               </div>
             </div>
@@ -32,15 +34,15 @@ const About = () => {
                   spare time I learned to code through Codecademy and found
                   myself more engaged and fulfilled than my actual career.
                   <br /> <br />
-                  I enrolled in Georgia Tech's coding boot camp in order to
-                  become a full stack web developer. Although the pace is
-                  incredibly fast and the course is challenging, I am loving
-                  every minute of it. Collaborating with my cohort members has
-                  become my favorite aspect of the boot camp.
+                  Recently, I earned a certificate in full stack web development 
+                  from the Georgia Institute of Technology. During the course, 
+                  I was known for being the team leader on group projects because 
+                  I excel at strategizing for efficiency, communicating and organizing 
+                  all of the details, and synergizing my team. I personally built a 
+                  custom user authentication and authorization for my final project.
                   <br /> <br />
-                  My hope is to one day merge my skills of leadership, teaching,
-                  and coding along with my passion to bring people together in
-                  order help people who can't help themselves.
+                  My hope is to merge my leadership, interpersonal, and coding
+                  skills in order to help others.
                   <br /> <br />
                   In my spare time I like to study the Bible, train my miniature
                   Aussie, go on hikes with my beautiful wife, and bring people
