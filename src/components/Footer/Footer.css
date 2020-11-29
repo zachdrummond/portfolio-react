@@ -1,7 +1,4 @@
 footer {
   opacity: 0.85!important;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+  z-index: -1!important;
 }

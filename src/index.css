@@ -1,27 +1,15 @@
-* {
-  box-sizing: border-box;
-}
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
+/* Adds the background image to each page */
 html,
 body {
-  height: 100%;
-  position: relative;
   background-image: url(./images/Background.jpg);
 }
 
+/* Adds space between the main element and the footer */
 main {
-  min-height: 100vh;
-  overflow: hidden;
-  display: block;
-  position: relative;
-  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 
-/* An id selector that changes the color of the header in the card */
+/* Changes the color of the header in the card */
 #Header {
   color: #3c6e4b !important;
 }
@@ -30,7 +18,7 @@ main {
   color: gray;
   font-size: 12px;
 }
-/* A class selector that changes the font to serif */
+/* Changes the font to serif */
 .font {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }

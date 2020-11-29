@@ -1,11 +1,13 @@
-import "./Footer.css";
+import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer className="bg-dark p-3">
-      <span className="text-secondary">
-        &copy; Zach Drummond 2020
-      </span>
+    <footer className="navbar fixed-bottom bg-dark p-2">
+      <div className="container justify-content-center">
+        <span className="navbar-text text-secondary">
+          &copy; Zach Drummond 2020
+        </span>
+      </div>
     </footer>
   );
 };

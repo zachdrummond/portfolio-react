@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 const Name = () => {
   return (
     <>
-      <Link id="name" className="navbar-brand font-weight-bold font m-0" to="/about">
+      <Link
+        id="name"
+        className="navbar-brand font-weight-bold font m-0"
+        to="/about"
+      >
         {/* < Arrow */}
         <svg
           width="1.5em"
@@ -36,7 +40,7 @@ const Name = () => {
       </Link>
       {/* Navbar Collapsible Button */}
       <button
-        className="navbar-toggler"
+        className="navbar-toggler button"
         type="button"
         data-toggle="collapse"
         data-target="#navbarMenu"
