@@ -23,7 +23,7 @@ const Portfolio = () => {
           {/* Card 1 */}
           <Card
             title="Ciphr"
-            text="This is an app that serves as a platform to share and solve coding algorithms. 
+            text="A platform to share and solve coding algorithms. 
             It enables developers to connect with each other in order to strengthen 
             their critical thinking abilities and problem solving skills."
             image={Ciphr}
@@ -37,11 +37,10 @@ const Portfolio = () => {
           {/* Card 2 */}
           <Card
             title="Gifted"
-            text="This is an app that tracks all of your gifts in one
-                      organized place. There is a table that organizes all of
-                      the gifts you receive from others and a table that
-                      organizes all of the gifts that you send to others. You
-                      can add new gifts, or edit/delete current gifts."
+            text="An app that tracks all of your gifts in one
+            organized place. There is a table that organizes all of
+            the gifts you receive from others and a table that
+            organizes all of the gifts that you send to others."
             image={Gifted}
             alt="Gifted Project"
           >
@@ -54,8 +53,7 @@ const Portfolio = () => {
           {/* Card 3 */}
           <Card
             title="Find Your Adventure"
-            text="Find your Adventure is a one stop shop website that gives
-            the user everything he/she need to know about a national
+            text="An app that gives the user everything he/she need to know about a national
             park site in one place, based on his/her preferences."
             image={FindYourAdventure}
             alt="Find Your Adventure Project"

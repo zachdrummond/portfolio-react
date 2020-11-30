@@ -21,4 +21,5 @@ main {
 /* Changes the font to serif */
 .font {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  text-align: center;
 }
