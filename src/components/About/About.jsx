@@ -38,7 +38,7 @@ const About = () => {
                     <br /> <br />
                     I earned a certificate in full stack web development from 
                     the Georgia Institute of Technology. During the course, I 
-                    earned a reputation for being a team leader on group projects.
+                    gained a reputation for being a team leader on group projects.
                     My strengths include strategizing for efficiency, communicating 
                     and organizing all of the details, and synergizing my team. 
                     I have hands-on experience in building full stack applications,
