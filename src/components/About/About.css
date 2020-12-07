@@ -5,3 +5,9 @@
   margin-bottom: 5px !important;
   max-width: 50% !important;
 }
+
+#brand {
+  color: gray;
+  font-size: 12.5px;
+  text-align: center;
+}

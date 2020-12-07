@@ -32,22 +32,22 @@ const About = () => {
                     id="aboutMeImg"
                   />
                   <p>
-                    After 6 years of working in vocational ministry, I decided
-                    to change career paths to pursue my passion for coding.
-                    During my spare time I learned to code through Codecademy
-                    and found myself more engaged and fulfilled than my actual
-                    career.
+                    After 6 rewarding years of working in vocational ministry, 
+                    I decided to pursue my passion for coding in order to solve
+                    problems with technology.
                     <br /> <br />
-                    Recently, I earned a certificate in full stack web
-                    development from the Georgia Institute of Technology. During
-                    the course, I was known for being the team leader on group
-                    projects because I excel at strategizing for efficiency,
-                    communicating and organizing all of the details, and
-                    synergizing my team. I personally built a custom user
-                    authentication and authorization for my final project.
+                    I earned a certificate in full stack web development from 
+                    the Georgia Institute of Technology. During the course, I 
+                    earned a reputation for being a team leader on group projects.
+                    My strengths include strategizing for efficiency, communicating 
+                    and organizing all of the details, and synergizing my team. 
+                    I have hands-on experience in building full stack applications,
+                    including custom user authentication and authorization.
                     <br /> <br />
-                    My hope is to merge my leadership, interpersonal, and coding
-                    skills in order to help others.
+                    Does your company or organization need help developing or 
+                    maintaining a website? I'll apply my skills in leadership, 
+                    interpersonal relationships, and web development to meet all
+                    of your needs.
                     <br /> <br />
                     In my spare time I like to study the Bible, train my
                     miniature Aussie, go on hikes with my beautiful wife, and
