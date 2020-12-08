@@ -51,7 +51,7 @@ const About = () => {
                     <br /> <br />
                     In my spare time I like to study the Bible, train my
                     miniature Aussie, go on hikes with my beautiful wife, and
-                    bring people together with games and deep conversation.
+                    bring people together with games and meaningful conversation.
                   </p>
                 </div>
               </div>
